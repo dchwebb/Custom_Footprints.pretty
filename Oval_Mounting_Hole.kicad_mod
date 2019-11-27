@@ -1,10 +1,10 @@
-(module Oval_Mounting_Hole (layer F.Cu) (tedit 5C93BEBC)
+(module Oval_Mounting_Hole (layer F.Cu) (tedit 5DD7CD6B)
   (descr "Mounting Hole 6mm, no annular")
   (tags "mounting hole 6mm no annular")
   (fp_text reference Ref** (at 0 -3.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Oval_Mounting_Hole (at 0 5.08) (layer F.Fab)
+  (fp_text value Oval_Mounting_Hole (at 0 5.08) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 1.54 0) (layer Cmts.User) (width 0.15))
