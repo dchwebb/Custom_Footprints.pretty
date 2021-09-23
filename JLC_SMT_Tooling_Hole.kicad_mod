@@ -1,17 +1,22 @@
-(module JLC_SMT_Tooling_Hole (layer F.Cu) (tedit 5F856029)
+(footprint "JLC_SMT_Tooling_Hole" (version 20210824) (generator pcbnew) (layer "F.Cu")
+  (tedit 614C827B)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
-  (attr virtual)
-  (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -3.2) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fb34ce33-bb05-4d76-b60d-5db7e412d40a)
   )
-  (fp_text value JL_SMT_Assembly (at 0 3.2) (layer F.Fab) hide
+  (fp_text value "JL_SMT_Assembly" (at 0 3.2) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 80b3945d-7a3a-427d-9c4c-aa896790ade5)
   )
-  (fp_circle (center 0 0) (end 1.3 0) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 1.3 0) (layer Cmts.User) (width 0.15))
-  (fp_text user %R (at 0 -3.2) (layer F.Fab) hide
+  (fp_text user "${REFERENCE}" (at 0 -3.2) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 354eb1a4-8c5c-4390-9e46-c6bdb0a158c3)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask))
+  (fp_circle (center 0 0) (end 0.825 0) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp c9572500-1298-462c-908e-22b1637f03af))
+  (fp_circle (center 0 0) (end 0.825 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp d1564e89-1719-4875-9d55-3a2a2986bbfd))
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers F&B.Cu *.Mask)
+    (clearance 0.25) (tstamp f46cab45-41ce-45c0-8b4c-018b921d1f96))
 )
