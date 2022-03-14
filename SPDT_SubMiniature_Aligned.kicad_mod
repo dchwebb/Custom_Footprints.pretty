@@ -24,7 +24,7 @@
   (pad 1 thru_hole rect (at -2.54 0) (size 1.5 2.5) (drill 1.0922) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 0) (size 1.5 2.5) (drill 1.0922) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 2.54 0) (size 1.5 2.5) (drill 1.0922) (layers *.Cu *.Mask))
-  (model "D:/docs/kiCad/Custom_Footprints.pretty/3dmodels/Toggle Switch Daily Well 1AS1T2B4M2QE.STEP"
+  (model "${CUSTOM_3D}/Toggle Switch Daily Well 1AS1T2B4M2QE.STEP"
     (offset (xyz 0 0 8))
     (scale (xyz 0.55 0.55 0.8))
     (rotate (xyz 0 0 0))

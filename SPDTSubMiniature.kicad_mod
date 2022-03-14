@@ -29,7 +29,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "D:/docs/kiCad/Custom_Footprints.pretty/3dmodels/Toggle Switch Daily Well 1AS1T2B4M2QE.STEP"
+  (model "${CUSTOM_3D}/Toggle Switch Daily Well 1AS1T2B4M2QE.STEP"
     (offset (xyz 2.5 0 8))
     (scale (xyz 0.5 0.5 0.8))
     (rotate (xyz 0 0 0))

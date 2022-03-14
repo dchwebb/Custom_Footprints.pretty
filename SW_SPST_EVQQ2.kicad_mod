@@ -41,7 +41,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "D:/docs/kiCad/Custom_Footprints.pretty/3dmodels/EVQQ2-DHMSW2-02W.step"
+  (model "${CUSTOM_3D}/EVQQ2-DHMSW2-02W.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

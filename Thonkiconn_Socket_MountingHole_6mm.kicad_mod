@@ -9,12 +9,12 @@
   )
   (fp_circle (center 0 0) (end 4.5 0) (layer F.CrtYd) (width 0.05))
   (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask))
-  (model ":custom_3d:PJ301M-12 Thonkiconn v0.2.stp"
+  (model "${CUSTOM_3D}/PJ301M-12 Thonkiconn v0.2.stp"
     (offset (xyz 0 0.7 -11.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model :custom_3d:6mm_Nut.wrl
+  (model ${CUSTOM_3D}/6mm_Nut.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

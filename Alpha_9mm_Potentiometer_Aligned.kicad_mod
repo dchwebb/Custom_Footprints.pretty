@@ -35,7 +35,7 @@
   (pad 1 thru_hole circle (at 2.5 7.5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 0 np_thru_hole circle (at -4.4 0.5 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
   (pad 0 np_thru_hole circle (at 4.4 0.5 90) (size 4 4) (drill 2) (layers *.Cu *.Mask))
-  (model D:/docs/kiCad/Custom_Footprints.pretty/3dmodels/ALPHA-RD901F-40.step
+  (model ${CUSTOM_3D}/ALPHA-RD901F-40.step
     (offset (xyz -0 -0.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

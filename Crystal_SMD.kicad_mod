@@ -33,7 +33,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model D:/docs/kiCad/Custom_Footprints.pretty/3dmodels/smdcrystal.STEP
+  (model ${CUSTOM_3D}/smdcrystal.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

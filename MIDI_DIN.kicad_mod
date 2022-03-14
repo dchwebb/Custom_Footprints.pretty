@@ -15,7 +15,7 @@
   (pad 1 thru_hole oval (at -6 6) (size 2.5 1.7) (drill oval 1.5 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at -4.2 1.8 315) (size 2.5 1.7) (drill oval 1.5 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 0 10) (size 2.5 1.7) (drill oval 1.5 1) (layers *.Cu *.Mask))
-  (model D:/docs/kiCad/3d_Models/5_Pin_DIN.wrl
+  (model ${CUSTOM_3D}/5_Pin_DIN.wrl
     (offset (xyz 0 -6 14.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
