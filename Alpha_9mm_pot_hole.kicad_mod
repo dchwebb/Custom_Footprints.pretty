@@ -1,19 +1,24 @@
-(module Alpha_9mm_pot_hole (layer F.Cu) (tedit 5F7C9874)
+(footprint "Alpha_9mm_pot_hole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F7C9874)
   (descr "Mounting Hole 7mm")
   (tags "mounting hole 7mm")
-  (fp_text reference Ref** (at 0 -6.8) (layer F.SilkS) hide
+  (attr through_hole)
+  (fp_text reference "Ref**" (at 0 -6.8) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2fd6aa7a-788e-408d-aefb-e287596dd649)
   )
-  (fp_text value Alpha_9mm_pot_hole (at 0 7) (layer F.Fab) hide
+  (fp_text value "Alpha_9mm_pot_hole" (at 0 7) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6d03611f-2f57-4845-98ee-0a257f7f2cc6)
   )
-  (fp_circle (center 0 0) (end 6 0) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
-  (fp_circle (center 0 0) (end 7.75 0) (layer Dwgs.User) (width 0.15))
-  (pad "" np_thru_hole circle (at 0 0) (size 7 7) (drill 7) (layers *.Cu *.Mask))
-  (model ${CUSTOM_3D}/Sifam_Knob_Small_Skirted.wrl
-    (at (xyz 0 0 0))
+  (fp_circle (center 0 0) (end 7.75 0) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp a6c4c9e5-70f2-47a1-9b42-cf935f921d5c))
+  (fp_circle (center 0 0) (end 3.5 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp f5fbd676-2135-4a70-b794-12188c737f29))
+  (fp_circle (center 0 0) (end 6 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp bb1c37fd-f62f-4380-b437-28c9f14b84d8))
+  (pad "" np_thru_hole circle (at 0 0) (size 7 7) (drill 7) (layers *.Cu *.Mask) (tstamp d7ff9aa1-36f9-4749-be20-cc636be915a9))
+  (model "${CUSTOM_3D}/Sifam_Knob_Small_Skirted.wrl"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )

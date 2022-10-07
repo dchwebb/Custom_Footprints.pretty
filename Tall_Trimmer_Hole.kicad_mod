@@ -1,0 +1,22 @@
+(footprint "Tall_Trimmer_Hole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F7C9874)
+  (descr "Mounting Hole 6.5mm")
+  (tags "mounting hole 6.5mm")
+  (attr through_hole)
+  (fp_text reference "Ref**" (at 0 -6.8) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7e18c9fa-11dc-4be9-aca1-228f1389b659)
+  )
+  (fp_text value "Tall_Trimmer_Hole" (at 0 7) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 50459522-61e6-452c-9307-3c44a60d5a8d)
+  )
+  (fp_circle (center 0 0) (end 5.7 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b524b295-edb3-4619-9d61-d28795be37a7))
+  (pad "" np_thru_hole circle (at 0 0) (size 6.4 6.4) (drill 6.4) (layers F&B.Cu *.Mask) (tstamp 1175acbf-87da-4154-8025-88d4af042865))
+  (model "${CUSTOM_3D}/Tall_Trimmer_Pot.step"
+    (offset (xyz 0 0 -11))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)
