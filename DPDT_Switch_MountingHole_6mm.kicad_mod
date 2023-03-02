@@ -1,0 +1,28 @@
+(footprint "DPDT_Switch_MountingHole_6mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F7CD364)
+  (descr "Mounting Hole 6mm, no annular")
+  (tags "mounting hole 6mm no annular")
+  (attr through_hole)
+  (fp_text reference "Ref**" (at 0 -5.4) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3cbfb14f-f323-4f61-816a-b6209604cf97)
+  )
+  (fp_text value "Subminiature_Switch" (at 0 5.1) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b421f481-3760-4588-ac98-bf54fd90427a)
+  )
+  (fp_circle (center 0 0) (end 2.5 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp f1198e86-6323-4bc6-a5c1-c2f4f710e29e))
+  (fp_circle (center 0 0) (end 4 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp f9bbcc0e-9ff7-4999-b4ab-778ade9778f2))
+  (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 6) (layers F&B.Cu *.Mask) (tstamp 8ebdf348-7cf9-49c5-b9e5-b4465fb885f2))
+  (model "${CUSTOM_3D}/Eledis 1A11-NF1STSE SPDT Toggle Switch.stp"
+    (offset (xyz 0 3.8 -10.5))
+    (scale (xyz 0.8 0.8 0.8))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${CUSTOM_3D}/6mm_Nut.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.87 0.87 0.87))
+    (rotate (xyz 0 0 0))
+  )
+)
