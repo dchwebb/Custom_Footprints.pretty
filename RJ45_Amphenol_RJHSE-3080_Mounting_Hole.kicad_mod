@@ -1,0 +1,25 @@
+(footprint "RJ45_Amphenol_RJHSE-3080_Mounting_Hole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5C214F77)
+  (descr "RJ45 vertical connector https://www.on-shore.com/wp-content/uploads/PJ012-8P8CX.pdf")
+  (tags "RJ45 PJ012")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 8.21) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c2d7c3da-8cff-460d-b772-e98f71f655b6)
+  )
+  (fp_text value "RJ45_Amphenol_RJHSE-3080_Mounting_Hole" (at -0.01 -7.59) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cf949972-c207-45d4-be69-3b4969cb5539)
+  )
+  (fp_text user "${REFERENCE}" (at 0 8.22) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b39449b3-d903-4a77-9f16-154591619449)
+  )
+  (fp_rect (start -8.065 -6.605) (end 8.065 6.605) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp 2503a941-a0fe-41d5-a661-4169e732da01))
+  (model "${CUSTOM_3D}/RJ45_Amphemol_RJHSE3080.step"
+    (offset (xyz 1.55 1.25 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
