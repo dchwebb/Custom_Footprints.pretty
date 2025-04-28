@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -271,14 +274,14 @@
 		(uuid "c18f56ee-3858-4624-a7e4-9dc8afd19c7e")
 	)
 	(pad "" np_thru_hole oval
-		(at -4.6 0.5 90)
+		(at -5.9 0.5 90)
 		(size 4 2.5)
 		(drill oval 3 1.5)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "0fa184a6-a510-428c-ae33-99b260ce37f7")
 	)
 	(pad "" np_thru_hole oval
-		(at 4.6 0.5 90)
+		(at 5.9 0.5 90)
 		(size 4 2.5)
 		(drill oval 3 1.5)
 		(layers "F&B.Cu" "*.Mask")

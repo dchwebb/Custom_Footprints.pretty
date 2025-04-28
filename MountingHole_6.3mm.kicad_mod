@@ -1,0 +1,97 @@
+(footprint "MountingHole_6.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 6.3mm, no annular")
+	(tags "mounting hole 6.3mm no annular")
+	(property "Reference" "Ref**"
+		(at 0.5 -5.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55728b99-f44e-41d3-a93f-cc88d200a2f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Low_Profile_Button_6.3mm"
+		(at 0.2 5.8 0)
+		(layer "F.Fab")
+		(uuid "b670725e-707b-48ca-a8f5-e309d94cad20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Custom_Footprints:MountingHole_6.3mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29afe332-b1ef-4d39-9338-f13d26f1dd76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "724283ea-4260-4335-a070-8f5be64cf4d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9047b26-3d96-4a8d-a115-fd0f9fe98b8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.93 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "754996b3-bd40-46ce-b30d-01374b6214ec")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "859064d4-9220-4401-ac61-6e361b49940e")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.3 6.3)
+		(drill 6.1)
+		(layers "F&B.Cu" "*.Mask" "F.SilkS")
+		(uuid "9a8aec4e-96e7-41e5-9125-0c1b42fbc8dc")
+	)
+)
